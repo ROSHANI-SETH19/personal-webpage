@@ -1,0 +1,177 @@
+ * {
+  margin: 0px;
+  padding-top: 0px;
+} 
+#d1 {
+   background-image: url("bgr.jpg");
+  height: 90vh;
+  width: 100%;
+  background-size: contain;
+  padding-top: 10px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: rgb(0, 0, 0);
+   
+}
+span img {
+  height: 9vh;
+    width: 109%;
+    
+}
+div div {
+  max-width: 80vw;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+}
+#d2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.1)),
+    url("PhotoGrid_Plus_1649877197815.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: contain;
+  padding-top: 10px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.X {
+  background-color: rgb(209, 211, 210);
+  margin: 46px;
+  padding: 49px;
+  height: 55vh;
+  width: 82%;
+  opacity: 80.7%;
+}
+ 
+.p1,.p2{
+  color: white;
+  margin: 18px;
+}
+.p1{
+  font-size: 70px;
+  text-shadow: 4px 1px 4px #000000;
+}
+.p2{
+  font-size: 30px;
+  font-family:  'Courier New', monospace;
+  text-shadow: 4px 1px 4px #000000;
+   
+
+}
+.btn{
+  background-color: azure;
+  color: #181818;
+  text-decoration: none;
+  font-size: 50px;
+  margin: 13px ;
+  box-shadow: 4px 1px 4px #000000;;
+}
+.btn:hover{
+  background-color: black;
+  color: azure;
+  border: 1px solid white;
+}
+ 
+
+
+
+  :root {
+  --light: #d8dbe0;
+  --dark: #1c1c1e;
+  --link: rgb(27, 129, 112);
+  --link-hover: rgb(24, 94, 82);
+}
+ 
+
+ .toggle-switch {
+  position: relative; 
+  width: 200px;
+}
+
+label {
+   position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: var(--dark);
+  border-radius: 50px;
+  cursor: pointer;
+  top: 344px;
+  left: -391px;}
+
+input {
+  position: absolute; 
+  display: none;
+}
+
+#slider {
+   position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+input:checked ~ #slider {
+  background-color: var(--light);
+}
+
+#slider::before {
+  content: "";
+   position: absolute; 
+  top: 13px;
+  left: 16px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  box-shadow: inset 28px -4px 0px 0px var(--light);
+  background-color: var(--dark);
+  transition: 0.3s;
+}
+
+input:checked ~ #slider::before {
+  transform: translateX(95px);
+  background-color: var(--dark);
+  box-shadow: none;
+}
+
+#d2 .X H2{
+ text-align-last: center; 
+ color: rgb(255, 182, 94);
+ text-shadow: 1px 1px 1px #000000;
+}
+.X{
+  display:block;
+}
+h3{
+text-align: center;
+font-size: 45px;
+font-weight: 100; 
+padding: 24px;
+}
+.r{
+ 
+  background: hsl(46, 83%, 51%);
+  margin: 8px;
+  padding: 16px 26px;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-weight: 500;
+  margin-left: 336px;
+  text-decoration: none;
+ 
+}
+.r:hover{
+  color:hsl(46, 83%, 51%) ;
+  background-color: black;
+}
+.dark{
+  background-color: black;
+  color:rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(48,48,51,1) 35%, rgba(0,0,0,1) 100%);
+}
+  .light{
+background-color: white;
+color: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(48,48,51,1) 35%, rgba(0,0,0,1) 100%);
+}
